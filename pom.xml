@@ -227,6 +227,9 @@
 
 
 	<build>
+		  <defaultGoal>install</defaultGoal>
+        <!-- Source directory configuration -->
+        <sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<!-- Compiler plug-in -->
 			<plugin>
